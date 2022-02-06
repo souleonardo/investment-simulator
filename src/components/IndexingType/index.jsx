@@ -9,22 +9,28 @@ function Indexing() {
   <div>
     <h3 className='title-h3'>Indexação</h3>
     <div className='title-info'>
-      <p>tipo de indexação</p>
+      <p>Tipo de indexação</p>
       <BsInfoCircle />
-      
     </div>
-    <div className='index-check-buttons'>
-      <input type='radio' className='i-1'/>
-      <input type='radio' className='i-2'/>
-      <input type='radio' className='i-3'/>
+
+    <div className='check-buttons2'>
+      <input type='radio' name="size" id="pre"/>
+      <label id="pre" htmlFor="pre">Pré</label>
+
+      <input type='radio' name="size" id="pos"  />
+      <label id="pos" htmlFor="pos">Pós</label>
+
+      <input type='radio' name="size" id="fixed"/>
+      <label id="fixed"htmlFor="fixed">Fixado</label>
     </div>
+    
     <form action="post">
       <label htmlFor="">Aporte Mensal</label>
-      <input type="text" />
+      <input type="number" />
       <label htmlFor="">Rentabilidade</label>
-      <input type="text" />
+      <input type="number" />
       <label htmlFor="">CDI (ao ano)</label>
-      <input type="text" />
+      <input type="number" />
       <button className='clear-fields' type='sumbit'>Simular</button>
     </form>
 

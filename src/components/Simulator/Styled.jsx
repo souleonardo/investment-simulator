@@ -1,15 +1,14 @@
 import styled from 'styled-components'
 
-
-
 const SimulatorStyle = styled.div`
   display: flex;
   width: 200px;
   height: 100%;
-  background-color: white;
   justify-content: center;
 
-  .title-info {
+
+
+   .title-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,20 +19,55 @@ const SimulatorStyle = styled.div`
     }
   }
 
-  .check-buttons input{
-    display: flex;
-    display: none;
-    justify-content: space-between;
-    text-align: center;
-    border: 0.5px solid #000;
-    padding: 10px;
-    border-radius: 5px;
+  
+
+  .check-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: center;
+      border-radius: 5px;
+
+
+    #bruto{
+      margin: 0;
+      font-size: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      border: 0.5px solid #000;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px 0px 0px 5px;
+
+      &:hover{
+      font-size: 11px;
+      padding: 9px
     }
 
 
+
+   }
+    #liquido{
+      margin: 0;
+      font-size: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      border: 0.5px solid #000;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 0px 5px 5px 0px;
+
+      &:hover{
+      font-size: 11px;
+      padding: 9px;
+    }
+}
+
+}
+
   form {
-    display: flex;
-    flex-direction: column;
+      display: flex;
+      flex-direction: column;
 
     label{
       font-size: 10px;
@@ -51,7 +85,7 @@ const SimulatorStyle = styled.div`
     button{
       font-weight: 800;
       justify-content: center;
-      padding: 10px;
+      padding: 8px;
       background-color: none;
       margin-top: 15px;
       border-radius: 5px;

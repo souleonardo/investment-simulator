@@ -3,13 +3,12 @@ import styled from 'styled-components'
 const SimulatorStyle = styled.div`
 
 h3{
-    color: #fff;
+    color: #eee;
   }
 
   display: flex;
   width: 200px;
   height: 100%;
-  background-color: white;
   justify-content: center;
 
   .title-info {
@@ -23,12 +22,45 @@ h3{
     }
   }
 
-  .check-buttons {
+  .check-buttons2 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
-  }
+    border-radius: 5px;
 
+    #pre{
+      width: 33%;
+      font-size: 10px;
+      box-sizing: border-box;
+      border: 0.5px solid #000;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px 0px 0px 5px;
+    }
+
+    #pos{
+      position: left;
+      width: 33%;
+      margin: 0px;
+      font-size: 10px;
+      box-sizing: border-box;
+      border: 0.5px solid #000;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    #fixed{
+      width: 33%;
+      margin: 0;
+      font-size: 10px;
+      box-sizing: border-box;
+      border: 0.5px solid #000;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 0px 5px 5px 0px;
+    }
+}
   form {
     display: flex;
     flex-direction: column;
@@ -49,7 +81,7 @@ h3{
     button{
       font-weight: 800;
       justify-content: center;
-      padding: 10px;
+      padding: 11px;
       background-color: #ed8f52;
       margin-top: 15px;
       border-radius: 5px;

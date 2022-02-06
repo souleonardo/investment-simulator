@@ -16,18 +16,23 @@ function Simulator() {
     </div>
 
     <div className='check-buttons'>
-      <input  type='radio'/>
-      <input  type='radio'/>
+      <input type='radio' name="rendimento" id="Brut"/>
+      <label id="bruto" htmlFor="Brut">Bruto</label>
+      <input type='radio' name="rendimento" id="Liquid"/>
+      <label id="liquido"htmlFor="Liquid">Líquido</label>
     </div>
 
 
     <form action="post">
-      <label htmlFor="">Aporte Inicial</label>
-      <input type="text" />
-      <label htmlFor="">Prazo (em meses)</label>
-      <input type="text" />
-      <label htmlFor="">IPCA (ao ano)</label>
-      <input type="text" />
+      <label htmlFor="initial-contribution">Aporte Inicial</label>
+      <input type="number" id="initial-contribution" />
+      
+      <label htmlFor="deadline">Prazo(em meses)</label>
+      <input type="number" id="deadline" />
+      
+      <label htmlFor="IPCA">IPCA (ao ano)</label>
+      <input type="number" id="IPCA"/>
+      
       <button className='clear-fields' type='sumbit'>Limpar campos</button>
     </form>
 
