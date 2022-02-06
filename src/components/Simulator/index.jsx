@@ -1,5 +1,8 @@
 import React from 'react';
 import SimulatorStyle from './Styled';
+import { BsInfoCircle } from 'react-icons/bs'
+
+
 
 function Simulator() {
   return (
@@ -9,12 +12,15 @@ function Simulator() {
     <h3>Simulador</h3>
     <div className='title-info'>
       <p>Rendimento</p>
-      <img src="#" alt="i" />
+      <BsInfoCircle />
     </div>
+
     <div className='check-buttons'>
-      <input type='radio' id='1'/>
-      <input type='radio' id='2'/>
+      <input  type='radio'/>
+      <input  type='radio'/>
     </div>
+
+
     <form action="post">
       <label htmlFor="">Aporte Inicial</label>
       <input type="text" />

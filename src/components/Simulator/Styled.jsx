@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+
+
 const SimulatorStyle = styled.div`
   display: flex;
   width: 200px;
@@ -18,11 +20,16 @@ const SimulatorStyle = styled.div`
     }
   }
 
-  .check-buttons {
+  .check-buttons input{
     display: flex;
-    justify-content: center;
+    display: none;
+    justify-content: space-between;
     text-align: center;
-  }
+    border: 0.5px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+    }
+
 
   form {
     display: flex;

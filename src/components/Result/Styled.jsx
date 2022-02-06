@@ -24,13 +24,13 @@ const ResultStyle = styled.div`
     font-size: 10px;
     font-weight: 700;
     justify-content: space-between;
-    border-radius: 5px;
+    border-radius: 3px;
     width: 150px;
     height: 60px;
     background-color: #fff;
     margin-right: 30px;
     -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.26); 
-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.26);
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.26);
   }
 }
 
