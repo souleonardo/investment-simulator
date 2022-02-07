@@ -39,9 +39,6 @@ const SimulatorStyle = styled.div`
       cursor: pointer;
       border-radius: 5px 0px 0px 5px;
 
-      &:hover{
-      font-size: 11px;
-      padding: 9px
     }
 
 
