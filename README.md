@@ -3,7 +3,7 @@
 ## Used Tecnologies
 
 <ul>
-  <li>React</>
+  <li>ReactJS</>
   <li>Styled Components</li>
   <li>Axios</li>
   <li>Docker</li>
