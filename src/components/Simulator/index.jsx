@@ -6,7 +6,7 @@ import { BsInfoCircle } from 'react-icons/bs'
 
 function Simulator() {
   return (
-  
+      
 <SimulatorStyle>      
   <div>
     <h3>Simulador</h3>
