@@ -48,10 +48,6 @@ h3{
       border: 0.5px solid #000;
       padding: 10px;
       cursor: pointer;
-
-      &:hover{
-      font-size: 11px;
-      padding: 9px
     }
 
     #fixed{
