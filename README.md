@@ -1,4 +1,4 @@
-# Simulador de investimentos
+# Investment Simulator
 
 ## Used Tecnologies
 
